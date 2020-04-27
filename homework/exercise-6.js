@@ -9,40 +9,44 @@ Use the provided console.log statements below and follow the instructions above 
 */
 
 var storeBranches = {
-
   glasgow: {
-    manager: 'Andrew',
-    assistant: 'Laura',
+    manager: "Andrew",
+    assistant: "Laura",
     interns: {
-      head_intern: 'Mozafar',
-      intern: 'James'
-    }
+      head_intern: "Mozafar",
+      intern: "James",
+    },
   },
 
   edinburgh: {
-    director: 'Kelly',
-    manager: 'Sally',
-    assistant: 'Derek',
+    director: "Kelly",
+    manager: "Sally",
+    assistant: "Derek",
     interns: {
-      head_intern: 'John',
-      intern: 'Sarah'
-    }
-  }
-}
-
+      head_intern: "John",
+      intern: "Sarah",
+    },
+  },
+};
 
 // ONLY EDIT BELOW THIS LINE
 
 // # 1
 // prints [ 'glasgow', 'edinburgh' ]
-console.log()
+var cityKeys = Object.keys(storeBranches);
+console.log(cityKeys);
 
 // # 2
 // prints [ 'manager', 'assistant', 'interns' ]
-console.log()
+var positions = storeBranches.glasgow;
+var positionKeys = Object.keys(positions);
+console.log(positionKeys);
 
 // # 3
 // prints [ 'head_intern', 'intern' ]
-console.log()
+var positions = storeBranches.glasgow;
+var internPositions = positions.interns;
+var internPositionKeys = Object.keys(internPositions);
+console.log(internPositionKeys);
 
 // ONLY EDIT ABOVE THIS LINE
