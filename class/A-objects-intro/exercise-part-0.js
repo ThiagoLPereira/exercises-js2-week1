@@ -9,10 +9,10 @@ var laptop = {
   brand: "HP",
   model: "ProBook",
   color: "Silver",
-  screenSize: 13,
+  screenSize: 13, // inch
   isTouchscreen: false,
-  memory: 16,
-  MAXBatery: 10,
+  ramGB: 16, // GB
+  MAXBatery: 5000, // mAh
 };
 
 console.log(laptop);
