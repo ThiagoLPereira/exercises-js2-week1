@@ -7,7 +7,7 @@ var person = {
   name: "Alice",
   age: 25,
   greet: function () {
-    return "My name is" + " " + this.name;
+    return "Hello everybody";
   },
 };
 
