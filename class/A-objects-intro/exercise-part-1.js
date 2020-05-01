@@ -27,8 +27,8 @@ var smartphone = {
 console.log(smartphone);
 
 var houseToRent = {
-  bathroom: 2,
-  rooms: 3,
+  bathrooms: 2,
+  rooms: 3, // One for couple and two single.
   garden: true,
   centalVentilation: true,
   garage: false,
