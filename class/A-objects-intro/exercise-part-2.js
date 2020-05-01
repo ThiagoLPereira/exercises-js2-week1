@@ -11,7 +11,7 @@ var kitten = {
 
 var laptop = {
   brand: "Lenovo",
-  ram: 5,
+  ramGB: 5,
 };
 
 var phone = {
